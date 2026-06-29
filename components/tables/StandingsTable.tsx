@@ -1,0 +1,68 @@
+import { Standings } from '@/data/standings';
+
+interface StandingsTableProps {
+  standings: Standings[];
+}
+
+export function StandingsTable({ standings }: StandingsTableProps) {
+  return (
+    <div className="glass overflow-hidden rounded-lg">
+      <div className="overflow-x-auto">
+        <table className="w-full">
+          <thead>
+            <tr className="border-b border-surface-light bg-surface">
+              <th className="px-4 py-3 text-left text-xs font-semibold text-slate-400">#</th>
+              <th className="px-4 py-3 text-left text-xs font-semibold text-slate-400">Team</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">P</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">W</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">D</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">L</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">GF</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">GA</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">GD</th>
+              <th className="px-4 py-3 text-center text-xs font-semibold text-slate-400">Pts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {standings.map((row, idx) => (
+              <tr
+                key={row.position}
+                className={`border-b border-surface-light transition-smooth hover:bg-surface ${
+                  idx < 2 ? 'bg-primary/5' : ''
+                }`}
+              >
+                <td className="px-4 py-3 text-sm font-bold text-slate-50">
+                  {row.position === 1 && '🥇'}
+                  {row.position === 2 && '🥈'}
+                  {row.position === 3 && '🥉'}
+                  {row.position > 3 && row.position}
+                </td>
+                <td className="px-4 py-3 text-sm font-medium text-slate-50">{row.teamName}</td>
+                <td className="px-4 py-3 text-center text-sm text-slate-400">{row.played}</td>
+                <td className="px-4 py-3 text-center text-sm font-semibold text-primary">
+                  {row.wins}
+                </td>
+                <td className="px-4 py-3 text-center text-sm font-semibold text-accent">
+                  {row.draws}
+                </td>
+                <td className="px-4 py-3 text-center text-sm font-semibold text-error">
+                  {row.losses}
+                </td>
+                <td className="px-4 py-3 text-center text-sm text-slate-400">{row.goalsFor}</td>
+                <td className="px-4 py-3 text-center text-sm text-slate-400">{row.goalsAgainst}</td>
+                <td className={`px-4 py-3 text-center text-sm font-semibold ${
+                  row.goalDifference > 0 ? 'text-primary' : row.goalDifference < 0 ? 'text-error' : 'text-slate-400'
+                }`}>
+                  {row.goalDifference > 0 ? '+' : ''}{row.goalDifference}
+                </td>
+                <td className="px-4 py-3 text-center text-sm font-bold text-slate-50">
+                  {row.points}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
