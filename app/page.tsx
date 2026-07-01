@@ -41,11 +41,11 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* Upcoming Fixtures Section */}
+      {/* Upcoming Matches Section */}
       <section className="border-b border-surface-light py-16 md:py-20">
         <Container>
           <SectionTitle
-            title="Upcoming Fixtures"
+            title="Upcoming Matches"
             subtitle="Don't miss the next thrilling matchups"
             className="mb-8"
           />
