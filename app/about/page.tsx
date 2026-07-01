@@ -115,10 +115,10 @@ export default function AboutPage() {
               </div>
               <h3 className="mb-2 font-bold text-slate-50">Phone</h3>
               <a
-                href="tel:+913324681234"
+                href="Phone:9847537376"
                 className="text-sm text-slate-400 hover:text-secondary transition-smooth"
               >
-                +91-33-2468-1234
+                9847537376
               </a>
             </div>
 
@@ -129,7 +129,7 @@ export default function AboutPage() {
               </div>
               <h3 className="mb-2 font-bold text-slate-50">Location</h3>
               <p className="text-sm text-slate-400">
-                Santipur, West Bengal<br />India
+                Santipur, Mahendranagar, kanchanpur<br />Nepal
               </p>
             </div>
           </div>
