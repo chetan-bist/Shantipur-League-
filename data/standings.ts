@@ -22,7 +22,7 @@ export const standings: Standings[] = [
     goalsFor: 4,
     goalsAgainst: 0,
     goalDifference: 4,
-    points: 2,
+    points: 3,
   },
   {
     position: 2,
@@ -34,7 +34,7 @@ export const standings: Standings[] = [
     goalsFor: 3,
     goalsAgainst: 2,
     goalDifference: 1,
-    points: 2,
+    points: 3,
   },
    {
     position: 3,
@@ -46,7 +46,7 @@ export const standings: Standings[] = [
     goalsFor: 2,
     goalsAgainst: 1,
     goalDifference: 1,
-    points: 2,
+    points: 3,
   },
   {
     position: 4,
