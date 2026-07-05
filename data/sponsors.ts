@@ -6,24 +6,24 @@ export interface Sponsor {
 }
 
 export const sponsors: Sponsor[] = [
-  // {
-  //   id: 1,
-  //   name: 'SportVision India',
-  //   category: 'Title',
-  //   description: 'Leading sports management and media company',
-  // },
-  // {
-  //   id: 2,
-  //   name: 'Elite Nutrition',
-  //   category: 'Platinum',
-  //   description: 'Premium sports nutrition and supplementation',
-  // },
-  // {
-  //   id: 3,
-  //   name: 'TechGear Sports',
-  //   category: 'Platinum',
-  //   description: 'High-performance sports equipment manufacturer',
-  // },
+  {
+    id: 1,
+    name: 'Ashok Joshi',
+    category: 'Gold',
+    description: 'हाम्रो शान्तिपुरका खेलकुद प्रेमी, जसले स्थानीय युवा र फुटबललाई अघि बढाउन सहयोग गर्नुभएकोमा हामी उहाँलाई हृदयदेखि नै धन्यवाद दिन चाहन्छौँ।',
+  },
+  {
+    id: 2,
+    name: 'Rajendra Thapa',
+    category: 'Gold',
+    description: 'हाम्रो शान्तिपुरका खेलकुद प्रेमी, जसले स्थानीय युवा र फुटबललाई अघि बढाउन सहयोग गर्नुभएकोमा हामी उहाँलाई हृदयदेखि नै धन्यवाद दिन चाहन्छौँ।',
+  },
+  {
+    id: 3,
+    name: 'Dipendra Bist',
+    category: 'Gold',
+    description: 'हाम्रो शान्तिपुरका खेलकुद प्रेमी, जसले स्थानीय युवा र फुटबललाई अघि बढाउन सहयोग गर्नुभएकोमा हामी उहाँलाई हृदयदेखि नै धन्यवाद दिन चाहन्छौँ।',
+  },
   // {
   //   id: 4,
   //   name: 'CloudForce Analytics',
