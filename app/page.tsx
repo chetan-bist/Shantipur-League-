@@ -5,12 +5,14 @@ import { MatchCard } from '@/components/cards/MatchCard';
 import { TeamCard } from '@/components/cards/TeamCard';
 import { NewsCard } from '@/components/cards/NewsCard';
 import { StandingsTable } from '@/components/tables/StandingsTable';
+import { TopgoalscorerTable } from '@/components/tables/TopgoalscorerTable';
 import { SponsorGrid } from '@/components/grids/SponsorGrid';
 import { matches } from '@/data/matches';
 import { teams } from '@/data/teams';
 import { news } from '@/data/news';
 import { standings } from '@/data/standings';
 import { sponsors } from '@/data/sponsors';
+import { topgoalscorer } from '@/data/topgoalscorer';
 
 export default function Home() {
   const upcomingMatches = matches.filter(m => m.status === 'upcoming').slice(0, 3);
@@ -24,6 +26,30 @@ export default function Home() {
         subtitle="⚽ Bringing our village together through football. Support our local talent and experience the passion of Shantipur's ultimate football festival!"
         cta={{ label: 'Watch Now', href: '/matches' }}
       />
+
+      {/* Top Goalscorers Section */}
+      <section className="border-b border-surface-light py-16 md:py-20">
+        <Container>
+          <SectionTitle
+            title="Tournament Top Goalscorers"
+            subtitle="Here is the updated list of players leading the scoring charts in the Shantipur Champions League:"
+            className="mb-8"
+          />
+          <TopgoalscorerTable topgoalscorer={topgoalscorer} />
+        </Container>
+      </section>
+
+      {/* Standings Section */}
+      <section className="border-b border-surface-light py-16 md:py-20">
+        <Container>
+          <SectionTitle
+            title="Tournament Standings"
+            subtitle="Current league table and team performance"
+            className="mb-8"
+          />
+          <StandingsTable standings={standings} />
+        </Container>
+      </section>
 
       {/* Featured Teams Section */}
       <section className="border-b border-surface-light py-16 md:py-20">
@@ -54,18 +80,6 @@ export default function Home() {
               <MatchCard key={match.id} match={match} />
             ))}
           </div>
-        </Container>
-      </section>
-
-      {/* Standings Section */}
-      <section className="border-b border-surface-light py-16 md:py-20">
-        <Container>
-          <SectionTitle
-            title="Tournament Standings"
-            subtitle="Current league table and team performance"
-            className="mb-8"
-          />
-          <StandingsTable standings={standings} />
         </Container>
       </section>
 

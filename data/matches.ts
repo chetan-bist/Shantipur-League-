@@ -23,11 +23,11 @@ export const matches: Match[] = [
     time: '4:00',
     venue: 'Santipur Stadium',
     status: 'completed',
-    round: 'Group Stage - Week 1',
+    round: 'Group Stage - Round 1',
   },
   {
     id: 2,
-    homeTeam: 'Iron Beast',
+    homeTeam: 'Iron Beast FC',
     awayTeam: 'Bhamka FC',
     homeScore: 0,
     awayScore: 4,
@@ -35,19 +35,19 @@ export const matches: Match[] = [
     time: '4:00',
     venue: 'Santipur Stadium',
     status: 'completed',
-    round: 'Group Stage - Week 1',
+    round: 'Group Stage - Round 1',
   },
   {
     id: 3,
-    homeTeam: 'Blue Lock',
-    awayTeam: 'Tiger Land',
+    homeTeam: 'Blue Lock FC',
+    awayTeam: 'Tiger Land FC',
     homeScore: 2,
     awayScore: 1,
     date: '2026-07-04',
     time: '4:00',
-    venue: 'Eagle Arena',
+    venue: 'Santipur Stadium',
     status: 'completed',
-    round: 'Group Stage - Week 1',
+    round: 'Group Stage - Round 1',
   },
   // {
   //   id: 4,
@@ -121,7 +121,7 @@ export const matches: Match[] = [
   //week two
    {
     id: 12,
-    homeTeam: 'Blue Lock',
+    homeTeam: 'Blue Lock FC',
     awayTeam: 'Bhamka FC',
     date: '2026-07-08',
     time: '4:00',
@@ -133,7 +133,7 @@ export const matches: Match[] = [
   
   {
     id: 11,
-    homeTeam: 'Iron Beast',
+    homeTeam: 'Iron Beast FC',
     awayTeam: 'Ghatal Baba FC',
     date: '2026-07-08',
     time: '4:00',
@@ -145,7 +145,7 @@ export const matches: Match[] = [
   {
     id: 10,
     homeTeam: 'Sagarmatha FC',
-    awayTeam: 'Tiger Land',
+    awayTeam: 'Tiger Land FC',
     date: '2026-07-08',
     time: '4:00',
     venue: 'Santipur Stadium',
@@ -157,7 +157,7 @@ export const matches: Match[] = [
   {
     id: 13,
     homeTeam: 'Sagarmatha FC',
-    awayTeam: 'Iron Beast',
+    awayTeam: 'Iron Beast FC',
     date: '2026-07-12',
     time: '4:00',
     venue: 'Santipur Stadium',
@@ -166,7 +166,7 @@ export const matches: Match[] = [
   },
   {
     id: 14,
-    homeTeam: 'Tiger Land',
+    homeTeam: 'Tiger Land FC',
     awayTeam: 'Bhamka FC',
     date: '2026-07-12',
     time: '4:00',
@@ -176,7 +176,7 @@ export const matches: Match[] = [
   },
   {
     id: 15,
-    homeTeam: 'Blue Lock',
+    homeTeam: 'Blue Lock FC',
     awayTeam: 'Ghatal Baba FC',
     date: '2026-07-12',
     time: '4:00',
@@ -197,8 +197,8 @@ export const matches: Match[] = [
   },
   {
     id: 17,
-    homeTeam: 'Iron Beast',
-    awayTeam: 'Tiger Land',
+    homeTeam: 'Iron Beast FC',
+    awayTeam: 'Tiger Land FC',
     date: '2026-07-15',
     time: '4:00',
     venue: 'Santipur Stadium',
@@ -207,7 +207,7 @@ export const matches: Match[] = [
   },
   {
     id: 18,
-    homeTeam: 'Blue Lock',
+    homeTeam: 'Blue Lock FC',
     awayTeam: 'Sagarmatha FC',
     date: '2026-07-15',
     time: '4:00',
@@ -228,8 +228,8 @@ export const matches: Match[] = [
   },
   {
     id: 20,
-    homeTeam: 'Iron Beast',
-    awayTeam: 'Blue Lock',
+    homeTeam: 'Iron Beast FC',
+    awayTeam: 'Blue Lock FC',
     date: '2026-07-19',
     time: '4:00',
     venue: 'Santipur Stadium',
@@ -239,7 +239,7 @@ export const matches: Match[] = [
   {
     id: 21,
     homeTeam: 'Ghatal Baba FC',
-    awayTeam: 'Tiger Land',
+    awayTeam: 'Tiger Land FC',
     date: '2026-07-19',
     time: '4:00',
     venue: 'Santipur Stadium',

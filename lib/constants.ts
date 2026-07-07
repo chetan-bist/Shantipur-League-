@@ -58,7 +58,7 @@ export const FOOTER_LINKS = {
   ],
   contact: [
     { label: 'Email: info@santipurchampions.com', href: 'mailto:info@santipurchampions.com' },
-    { label: 'Phone: +91-33-2468-1234', href: 'tel:+913324681234' },
+    { label: 'Phone: 9847537376', href: '9847537376' },
   ],
   social: [
     { label: 'Facebook', href: 'https://facebook.com/santipurchampions' },
