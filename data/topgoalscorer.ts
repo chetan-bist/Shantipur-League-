@@ -22,7 +22,7 @@ export const topgoalscorer: Topgoalscorer[] = [
     position: 3,
     teamName: 'Sagarmatha FC',
     playerName: 'Gyanendra Joshi',
-    goals: 1,
+    goals: 2,
   },
   {
     position: 4,
@@ -44,12 +44,6 @@ export const topgoalscorer: Topgoalscorer[] = [
   },
   {
     position: 7,
-    teamName: 'Sagarmatha FC',
-    playerName: 'Nitesh',
-    goals: 1,
-  },
-  {
-    position: 8,
     teamName: 'Ghatal Baba FC',
     playerName: 'Awash',
     goals: 1,

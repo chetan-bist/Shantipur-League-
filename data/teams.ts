@@ -128,7 +128,7 @@ export const teams: Team[] = [
     founded: 2026,
     coach: 'none',
     captain: 'Rohit',
-    logo: '/real-madridfc-logo.png',
+    logo: '/ghatalbabafc-logo.png',
     players: [
       { id: 21, name: 'Rohit', number: 10, position: 'FWD', age: 18, image: '/placeholder-user.jpg' },
       { id: 22, name: 'Harish', number: 8, position: 'MID', age: 16, image: '/placeholder-user.jpg' },
