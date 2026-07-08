@@ -30,8 +30,8 @@ export function TeamCard({ team }: TeamCardProps) {
           <Image 
             src={team.logo} 
             alt={`${team.name} Logo`} 
-            width={40} 
-            height={40} 
+            width={80} 
+            height={80} 
             className="object-cover"
           />
         </div>
