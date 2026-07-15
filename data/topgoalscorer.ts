@@ -12,73 +12,76 @@ export const topgoalscorer: Topgoalscorer[] = [
     playerName: 'Gyanendra Joshi',
     goals: 9,
   },
-  
   {
     position: 2,
+    teamName: 'Ghatal Baba FC',
+    playerName: 'Shirish Dhami',
+    goals: 8,
+  },
+  {
+    position: 3,
     teamName: 'Blue Lock FC',
     playerName: 'Anuj Khadka',
     goals: 7,
   },
   {
-    position: 3,
+    position: 4,
     teamName: 'Bhamka FC',
     playerName: 'Nipurna Chand',
     goals: 5,
   },
   {
-    position: 4,
-    teamName: 'Ghatal Baba FC',
-    playerName: 'Shirish Dhami',
-    goals: 4,
-  },
-  
-  {
     position: 5,
     teamName: 'Blue Lock FC',
     playerName: 'Gajendra Bist',
-    goals: 2,
+    goals: 4,
   },
   {
     position: 6,
+    teamName: 'Tiger Land FC',
+    playerName: 'Harish Dhami',
+    goals: 3,
+  },
+  {
+    position: 7,
+    teamName: 'Ghatal Baba FC',
+    playerName: 'Rohit',
+    goals: 3,
+  },
+  {
+    position: 8,
     teamName: 'Ghatal Baba FC',
     playerName: 'Awash',
     goals: 2,
   },
   {
-    position: 7,
-    teamName: 'Tiger Land FC',
-    playerName: 'Harish Dhami',
-    goals: 1,
-  },
-  {
-    position: 8,
-    teamName: 'Ghatal Baba FC',
-    playerName: 'Rohit',
-    goals: 1,
-  },
-  {
     position: 9,
+    teamName: 'Blue Lock  FC',
+    playerName: 'Pawan',
+    goals: 2,
+  },
+  {
+    position: 10,
+    teamName: 'Bhamka FC',
+    playerName: 'Sameer',
+    goals: 2,
+  },
+  {
+    position: 11,
     teamName: 'Ghatal Baba FC',
     playerName: 'Harish',
     goals: 1,
   },
   {
-    position: 10,
+    position: 12,
     teamName: 'Iron Beast FC',
     playerName: 'Sonu',
     goals: 1,
   },
   {
-    position: 11,
+    position: 13,
     teamName: 'Tiger Land FC',
     playerName: 'Sakira',
     goals: 1,
   },
-  {
-    position: 12,
-    teamName: 'Bhamka FC',
-    playerName: 'Sameer',
-    goals: 1,
-  },
-
 ]
