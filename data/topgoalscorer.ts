@@ -32,22 +32,23 @@ export const topgoalscorer: Topgoalscorer[] = [
   },
   {
     position: 5,
+    teamName: 'Ghatal Baba FC',
+    playerName: 'Rohit',
+    goals: 5,
+  },
+  {
+    position: 6,
     teamName: 'Blue Lock FC',
     playerName: 'Gajendra Bist',
     goals: 4,
   },
   {
-    position: 6,
+    position: 7,
     teamName: 'Tiger Land FC',
     playerName: 'Harish Dhami',
     goals: 3,
   },
-  {
-    position: 7,
-    teamName: 'Ghatal Baba FC',
-    playerName: 'Rohit',
-    goals: 3,
-  },
+  
   {
     position: 8,
     teamName: 'Ghatal Baba FC',
