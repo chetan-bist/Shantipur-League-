@@ -8,52 +8,51 @@ export interface Topgoalscorer {
 export const topgoalscorer: Topgoalscorer[] = [
   {
     position: 1,
-    teamName: 'Sagarmatha FC',
-    playerName: 'Gyanendra Joshi',
-    goals: 9,
+    teamName: 'Blue Lock FC',
+    playerName: 'Anuj Khadka',
+    goals: 12,
   },
   {
     position: 2,
     teamName: 'Ghatal Baba FC',
     playerName: 'Shirish Dhami',
-    goals: 8,
+    goals: 11,
   },
   {
     position: 3,
-    teamName: 'Blue Lock FC',
-    playerName: 'Anuj Khadka',
-    goals: 7,
+    teamName: 'Sagarmatha FC',
+    playerName: 'Gyanendra Joshi',
+    goals: 10,
   },
   {
     position: 4,
+    teamName: 'Blue Lock FC',
+    playerName: 'Gajendra Bist',
+    goals: 6,
+  },
+  {
+    position: 6,
+    teamName: 'Ghatal Baba FC',
+    playerName: 'Rohit',
+    goals: 6,
+  },
+  {
+    position: 5,
     teamName: 'Bhamka FC',
     playerName: 'Nipurna Chand',
     goals: 5,
   },
   {
-    position: 5,
-    teamName: 'Ghatal Baba FC',
-    playerName: 'Rohit',
-    goals: 5,
-  },
-  {
-    position: 6,
-    teamName: 'Blue Lock FC',
-    playerName: 'Gajendra Bist',
-    goals: 4,
-  },
-  {
     position: 7,
     teamName: 'Tiger Land FC',
     playerName: 'Harish Dhami',
-    goals: 3,
+    goals: 4,
   },
-  
   {
     position: 8,
     teamName: 'Ghatal Baba FC',
     playerName: 'Awash',
-    goals: 2,
+    goals: 3,
   },
   {
     position: 9,
